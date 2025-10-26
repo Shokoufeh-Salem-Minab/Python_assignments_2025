@@ -5,3 +5,5 @@
 /.vs/python/FileContentIndex/b95a7abc-e7f0-4590-bf36-68458c460fba.vsidx
 /.vs/python/FileContentIndex
 /.vs
+__pycache__/
+*.pyc

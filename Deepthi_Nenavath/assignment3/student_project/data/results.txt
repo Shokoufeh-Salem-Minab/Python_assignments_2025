@@ -1,0 +1,9 @@
+[2025-10-26 10:50:07] Circle 1: Radius=3.42, Area=36.83, Circumference=21.51
+[2025-10-26 10:50:07] Circle 2: Radius=6.33, Area=125.92, Circumference=39.78
+[2025-10-26 10:50:07] Circle 3: Radius=9.19, Area=265.06, Circumference=57.71
+[2025-10-26 10:50:07] Rectangle 1: Length=5, Width=3, Area=15.00, Perimeter=16.00
+[2025-10-26 10:50:07] Rectangle 2: Length=7.5, Width=4.2, Area=31.50, Perimeter=23.40
+[2025-10-26 10:50:07] Rectangle 3: Length=10, Width=6, Area=60.00, Perimeter=32.00
+[2025-10-26 10:50:07] Triangle 1: Base=6, Height=4, Area=12.00
+[2025-10-26 10:50:07] Triangle 2: Base=8.5, Height=5.2, Area=22.10
+[2025-10-26 10:50:07] Triangle 3: Base=12, Height=7, Area=42.00

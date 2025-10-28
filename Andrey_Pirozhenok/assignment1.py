@@ -15,13 +15,13 @@ def main() -> None:
         print("Refusing to process empty strings.")
         return
 
-    vowelCount = sum(1 for c in firstname if c.lower() in "aeiou")
+    vowel_count = sum(1 for c in firstname if c.lower() in "aeiou")
 
-    def isConsonant(c: str) -> bool:
+    def is_consonant(c: str) -> bool:
         return c.isascii() and c.isalpha() and c.lower() not in "aeiou"
 
-    consonantCount = sum(1 for c in firstname if isConsonant(c))
-    print(f"Firstname contains {vowelCount} vowels and {consonantCount} consonants.")
+    consonant_count = sum(1 for c in firstname if is_consonant(c))
+    print(f"Firstname contains {vowel_count} vowels and {consonant_count} consonants.")
 
     print(f"First name in uppercase: {firstname.upper()}")
     print(f"First name in lowercase: {firstname.lower()}")

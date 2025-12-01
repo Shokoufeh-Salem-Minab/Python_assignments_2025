@@ -1,0 +1,53 @@
+import string
+import secrets
+
+def generate_password_from_info(first_name, last_name, phone, random_digit = 1, random_symbol = 1, min_length = 8):
+    cleaned_first_name = first_name.strip() 
+    cleaned_last_name = last_name.strip() 
+    cleaned_phone = phone.strip().replace("-", "")
+    
+    first_part_name = cleaned_first_name[:2].upper()
+    last_part_last_name = cleaned_last_name[-2:].lower() if len(cleaned_last_name) >= 2 else cleaned_last_name.lower()
+    phone_part = cleaned_phone[-4:][::-1]
+    
+    general_password = first_part_name + last_part_last_name + phone_part
+
+    digits_to_add = ''.join(secrets.choice(string.digits) for _ in range(random_digit))
+    general_password += digits_to_add
+    
+    symbols_to_add = ''.join(secrets.choice(string.punctuation) for _ in range(random_symbol))
+    general_password += symbols_to_add
+    
+    if len(general_password) < min_length:
+        missing_length = min_length - len(general_password)
+        
+        extra_chars = ""
+        for i in range(missing_length):
+            extra_chars += secrets.choice(string.digits)
+        
+        password = general_password + extra_chars
+    else:
+        password = general_password
+    
+    return password
+
+def main():
+    first_name = input("Enter your name: ")
+    last_name = input("Ender your last name: ")
+    phone = input("Enter your phone number: ")
+
+    try:
+        random_digits = int(input("How many digits to add?: ") or "1")
+        random_symbols = int(input("How many characters to add?: ") or "1")
+        user_min_length = int(input("Minimum password length?: ") or "8")
+    except ValueError:
+        random_digits, random_symbols, user_min_length = 1, 1, 8
+    
+    password = generate_password_from_info(first_name, last_name, phone, random_digits, random_symbols, min_length = user_min_length)
+    print(f"Password will be: {password}")
+
+    with open('passwords.txt', 'a') as f:
+        f.write(f"{password}\n")
+
+if __name__ == "__main__":
+    main()

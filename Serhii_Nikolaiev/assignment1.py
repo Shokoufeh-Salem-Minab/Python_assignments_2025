@@ -8,7 +8,13 @@ CONSONANTS = [
 def main():
     first_name = input("Enter your first name: ")
     last_name = input("Enter your last name: ")
-        
+
+    if len(first_name) == 0 or len(last_name) == 0:
+        print("Seriously?? " \
+        "Do not waste computational power and time if you don't bother filling out first name and last name. " \
+        "If you're not willing to provide complete information, don't expect me to run AT ALL.")
+        exit(1)
+            
     print(f"\nLength of first name: {len(first_name)}")
     print(f"Length of last name: {len(last_name)}")
 

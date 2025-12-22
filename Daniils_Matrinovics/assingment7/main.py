@@ -1,8 +1,10 @@
 import pandas as pd
+import os
 
 def with_logging(func):
     def wrapper(*args, **kwargs):
-        with open("assingment7/student_log.txt", "a")as file:
+        base_dir = os.path.dirname(__file__)    # current directory path (so that code still works when executed from the student folder)
+        with open(f"{base_dir}/student_log.txt", "a")as file:
             file.write(func(*args, **kwargs))
     return wrapper
 

@@ -1,6 +1,7 @@
 import pandas as pd
 import csv
 import matplotlib.pyplot as plt
+import os
 
 def prompt_week(category):
     values = input(f"Daily expenses for {category} (separate by commas): ")
@@ -31,7 +32,8 @@ highest_category = max(totals, key=totals.get)
 print(f"the highest category is \"{highest_category}\" with the total - {totals[highest_category]}")
 
 # Save totals to csv
-with open("assingment8/weekly_expense_summary.csv", "w", newline="") as file:
+base_dir = os.path.dirname(__file__)    # current directory path (so that code still works the same when executed from the student folder)
+with open(f"{base_dir}/weekly_expense_summary.csv", "w", newline="") as file:
     writer = csv.writer(file)
     writer.writerow(["Category","Total Expense"])
     for category, total in totals.items():

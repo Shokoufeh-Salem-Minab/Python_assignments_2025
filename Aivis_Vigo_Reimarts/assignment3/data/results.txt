@@ -1,0 +1,27 @@
+=== Rick and Morty Characters ====
+Fetched at: 2025-12-19 15:51:29.258324
+==================================================
+
+1. Rick Sanchez - Status: Alive, Species: Human, Origin: Earth (C-137)
+2. Morty Smith - Status: Alive, Species: Human, Origin: unknown
+3. Summer Smith - Status: Alive, Species: Human, Origin: Earth (Replacement Dimension)
+4. Beth Smith - Status: Alive, Species: Human, Origin: Earth (Replacement Dimension)
+5. Jerry Smith - Status: Alive, Species: Human, Origin: Earth (Replacement Dimension)
+6. Abadango Cluster Princess - Status: Alive, Species: Alien, Origin: Abadango
+7. Abradolf Lincler - Status: unknown, Species: Human, Origin: Earth (Replacement Dimension)
+8. Adjudicator Rick - Status: Dead, Species: Human, Origin: unknown
+9. Agency Director - Status: Dead, Species: Human, Origin: Earth (Replacement Dimension)
+10. Alan Rails - Status: Dead, Species: Human, Origin: unknown
+11. Albert Einstein - Status: Dead, Species: Human, Origin: Earth (C-137)
+12. Alexander - Status: Dead, Species: Human, Origin: Earth (C-137)
+13. Alien Googah - Status: unknown, Species: Alien, Origin: unknown
+14. Alien Morty - Status: unknown, Species: Alien, Origin: unknown
+15. Alien Rick - Status: unknown, Species: Alien, Origin: unknown
+16. Amish Cyborg - Status: Dead, Species: Alien, Origin: unknown
+17. Annie - Status: Alive, Species: Human, Origin: Earth (C-137)
+18. Antenna Morty - Status: Alive, Species: Human, Origin: unknown
+19. Antenna Rick - Status: unknown, Species: Human, Origin: unknown
+20. Ants in my Eyes Johnson - Status: unknown, Species: Human, Origin: unknown
+
+==================================================
+Total characters returned: 20

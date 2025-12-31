@@ -1,0 +1,6 @@
+Patriks Krastins: [8, 9, 7, 10]
+Average: 8.5
+Someone Smith: [10, 9, 8, 9]
+Average: 9.0
+Dita Doe: [7, 6, 8, 7]
+Average: 7.0

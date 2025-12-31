@@ -1,0 +1,18 @@
+=== STUDENT GRADE REPORT ===
+
+Student: Jason Statham
+Grades: [85, 92, 78, 90, 88]
+Average: 86.60
+----------------------------------------
+Student: Dwayne Johnson
+Grades: [88, 95, 82, 91, 87]
+Average: 88.60
+----------------------------------------
+Student: Tom Cruise
+Grades: [90, 85, 88, 92, 87]
+Average: 88.40
+----------------------------------------
+Student: Scarlett Johansson
+Grades: [95, 89, 93, 91, 94]
+Average: 92.40
+----------------------------------------

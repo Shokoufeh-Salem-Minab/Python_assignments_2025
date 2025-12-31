@@ -1,0 +1,10 @@
+=== STUDENT REPORT ===
+
+Total Students: 4
+
+ID: 101 | Name: Micheal Jordan | Grade: 85
+ID: 102 | Name: Ema Watson | Grade: 92
+ID: 103 | Name: Jason Statham | Grade: 78
+ID: 104 | Name: John Dear | Grade: 88
+
+Average Grade: 85.75

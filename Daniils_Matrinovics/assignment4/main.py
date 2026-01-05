@@ -23,7 +23,7 @@ def generate_password_from_info():
         print("\nThe data entered is incorrect!\n") 
     else:
         # Save each password in "passwords.txt"
-        base_dir = os.path.dirname(__file__)
+        base_dir = os.path.dirname(__file__)    # current directory path (so that code still works the same when executed from the student folder)
         with open(base_dir+"/passwords.txt","a") as f:
             f.write(pw+"\n")
         print("\nOK!\n")

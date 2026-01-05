@@ -1,0 +1,89 @@
+[
+    {
+        "artist":[
+            "Dj Godzilla"
+        ],
+        "title":"Never Gonna Give You Up Remix",
+        "genre":"Dance",
+        "length":[
+            4,
+            21
+        ],
+        "lufs":-6.43
+    },
+    {
+        "artist":[
+            "Paper Lanterns",
+            "Solar Drift",
+            "Night Circuit"
+        ],
+        "title":"Quiet Streets",
+        "genre":"Lo-fi",
+        "length":[
+            2,
+            54
+        ],
+        "lufs":-16.6
+    },
+    {
+        "artist":[
+            "Solar Drift"
+        ],
+        "title":"Fading Horizons",
+        "genre":"Ambient",
+        "length":[
+            8,
+            2
+        ],
+        "lufs":-18.9
+    },
+    {
+        "artist":[
+            "Night Circuit"
+        ],
+        "title":"Voltage Dreams",
+        "genre":"Synthwave",
+        "length":[
+            5,
+            12
+        ],
+        "lufs":-14.2
+    },
+    {
+        "artist":[
+            "Echo Bloom"
+        ],
+        "title":"Glass Skies",
+        "genre":"Other",
+        "length":[
+            3,
+            18
+        ],
+        "lufs":-11.4
+    },
+    {
+        "artist":[
+            "Rick Astley"
+        ],
+        "title":"Never Gonna Give You Up",
+        "genre":"Other",
+        "length":[
+            3,
+            33
+        ],
+        "lufs":-11.8
+    },
+    {
+        "artist":[
+            "Crimson Avenue",
+            "Echo Bloom"
+        ],
+        "title":"Last Call",
+        "genre":"Rock",
+        "length":[
+            4,
+            16
+        ],
+        "lufs":-9.8
+    }
+]

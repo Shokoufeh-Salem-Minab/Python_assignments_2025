@@ -1,6 +1,7 @@
-from mylib import File
-from pathlib import Path
 import os
+from pathlib import Path
+
+from mylib import File
 
 FILE_NAME = "test.bin"
 MY_DATA = b"My data bytes"
@@ -13,6 +14,7 @@ def save_example():
     file.write_file(Path(FILE_NAME))
 
 
+# Load new File
 def load_example():
     file = File.from_file(Path(FILE_NAME))
     bytes_ = file.get_bytes()

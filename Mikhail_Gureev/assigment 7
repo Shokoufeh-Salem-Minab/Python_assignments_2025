@@ -1,0 +1,24 @@
+def process_students():
+    # List of students and their grades
+    students = {
+        "Alice": [80, 85, 90],
+        "Bob": [70, 75, 80],
+        "Charlie": [88, 92, 85]
+    }
+
+    # Open a file to write results
+    with open("student_results.txt", "w") as file:
+        for name, grades in students.items():
+            # Calculate average
+            average = sum(grades) / len(grades)
+
+            # Write to file
+            file.write(f"Student: {name}\n")
+            file.write(f"Grades: {grades}\n")
+            file.write(f"Average: {average:.2f}\n\n")
+
+    print("Results written to student_results.txt")
+
+
+# Run the function
+process_students()

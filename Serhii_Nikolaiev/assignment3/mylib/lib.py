@@ -1,7 +1,8 @@
+from dataclasses import dataclass
+from pathlib import Path
+
 import lz4.frame
 from fastcrc import crc32
-from pathlib import Path
-from dataclasses import dataclass
 
 ALLOWED_COMPRESSION_LEVELS = list(
     range(lz4.frame.COMPRESSIONLEVEL_MIN, lz4.frame.COMPRESSIONLEVEL_MAX + 1)
@@ -43,9 +44,9 @@ class MagicBytes:
         use_lz4: bool
         use_crc32: bool
 
-        assert (
-            len(magic_bytes) == MagicBytes.get_magic_bytes_length()
-        ), f"Magic bytes mismatch. Expected: {MagicBytes.get_magic_bytes_length()}, received: {len(magic_bytes)}"
+        assert len(magic_bytes) == MagicBytes.get_magic_bytes_length(), (
+            f"Magic bytes mismatch. Expected: {MagicBytes.get_magic_bytes_length()}, received: {len(magic_bytes)}"
+        )
 
         match magic_bytes[0:3]:
             case MagicBytes.USE_LZ4:
@@ -53,7 +54,7 @@ class MagicBytes:
             case MagicBytes.DONT_USE_LZ4:
                 use_lz4 = False
             case error:
-                raise RuntimeError("Invalid magic bytes")
+                raise RuntimeError(f"Invalid magic bytes: {error}")
 
         match magic_bytes[3:6]:
             case MagicBytes.USE_CRC:
@@ -61,7 +62,7 @@ class MagicBytes:
             case MagicBytes.DONT_USE_CRC:
                 use_crc32 = False
             case error:
-                raise RuntimeError("Invalid magic bytes")
+                raise RuntimeError(f"Invalid magic bytes: {error}")
 
         return FileFlags(use_lz4, use_crc32)
 
@@ -78,9 +79,9 @@ class File:
     def set_compression_level(self, level: int):
         if not self.file_flags.use_lz4:
             raise RuntimeError("Compression/Decompression was not enabled")
-        if self.lz4_level not in ALLOWED_COMPRESSION_LEVELS:
+        if level not in ALLOWED_COMPRESSION_LEVELS:
             raise RuntimeError(
-                f"Compression level {self.lz4_level} is not supported. Allowed values: {ALLOWED_COMPRESSION_LEVELS}"
+                f"Compression level {level} is not supported. Allowed values: {ALLOWED_COMPRESSION_LEVELS}"
             )
         self.lz4_level = level
 
@@ -91,7 +92,7 @@ class File:
 
     def get_bytes(self) -> bytes:
         if self.bytes is None:
-            raise RuntimeError("Bytes was not set.")
+            raise RuntimeError("Bytes not set.")
         return self.bytes
 
     def add_bytes(self, bytes_: bytes):
@@ -117,11 +118,8 @@ class File:
                 if self.file_flags.use_crc32:
                     crc32_ = self._exclude_crc32()
                     if crc32_ != self._get_crc32():
-                        print("bytes", self.bytes)
-                        print(crc32_)
-                        print(self._get_crc32())
-
                         raise RuntimeError("CRC32 mismatch")
+
                 if self.file_flags.use_lz4:
                     self._decompress()
         except FileNotFoundError:

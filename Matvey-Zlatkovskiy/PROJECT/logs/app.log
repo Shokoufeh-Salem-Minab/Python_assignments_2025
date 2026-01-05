@@ -1,0 +1,468 @@
+2026-01-05 17:48:27,496 | INFO | ACTION: CHART_SPENDING
+2026-01-05 17:48:27,496 | INFO | TIMER: apply_filters took 0.06 ms
+2026-01-05 17:48:27,503 | INFO | TIMER: plot_spending_by_category took 6.51 ms
+2026-01-05 17:48:27,530 | INFO | TIMER: apply_filters took 0.06 ms
+2026-01-05 17:48:27,530 | INFO | TIMER: summary_metrics took 0.01 ms
+2026-01-05 17:48:27,533 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 17:48:27,533 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 17:48:27,534 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:27,534 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 17:48:27,534 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:27,534 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 17:48:27,535 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:27,535 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 17:48:27,535 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:29,928 | INFO | TIMER: apply_filters took 0.10 ms
+2026-01-05 17:48:29,928 | INFO | TIMER: summary_metrics took 0.01 ms
+2026-01-05 17:48:33,634 | INFO | TIMER: apply_filters took 0.08 ms
+2026-01-05 17:48:33,634 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:38,234 | INFO | ACTION: CHART_SPENDING
+2026-01-05 17:48:38,234 | INFO | TIMER: apply_filters took 0.06 ms
+2026-01-05 17:48:38,241 | INFO | TIMER: plot_spending_by_category took 6.09 ms
+2026-01-05 17:48:38,268 | INFO | TIMER: apply_filters took 0.06 ms
+2026-01-05 17:48:38,268 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:38,271 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 17:48:38,271 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 17:48:38,271 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:38,271 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 17:48:38,271 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:38,271 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 17:48:38,272 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:38,272 | INFO | TIMER: apply_filters took 0.03 ms
+2026-01-05 17:48:38,272 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 17:48:39,825 | INFO | TIMER: apply_filters took 0.08 ms
+2026-01-05 17:48:39,825 | INFO | TIMER: summary_metrics took 0.01 ms
+2026-01-05 19:45:19,028 | INFO | ACTION: CHART_SPENDING
+2026-01-05 19:45:19,028 | INFO | TIMER: apply_filters took 0.04 ms
+2026-01-05 19:45:19,034 | INFO | TIMER: plot_spending_by_category took 6.13 ms
+2026-01-05 19:45:19,063 | INFO | TIMER: apply_filters took 0.05 ms
+2026-01-05 19:45:19,063 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:45:19,065 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 19:45:19,065 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 19:45:19,065 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:45:19,065 | INFO | TIMER: apply_filters took 0.01 ms
+2026-01-05 19:45:19,065 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:45:19,066 | INFO | TIMER: apply_filters took 0.01 ms
+2026-01-05 19:45:19,066 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:45:19,066 | INFO | TIMER: apply_filters took 0.01 ms
+2026-01-05 19:45:19,066 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:54:48,352 | INFO | ACTION: CHART_SPENDING
+2026-01-05 19:54:48,353 | INFO | TIMER: apply_filters took 0.04 ms
+2026-01-05 19:54:48,357 | INFO | TIMER: plot_spending_by_category took 4.80 ms
+2026-01-05 19:54:48,383 | INFO | TIMER: apply_filters took 0.04 ms
+2026-01-05 19:54:48,383 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:54:48,386 | INFO | TIMER: apply_filters took 0.02 ms
+2026-01-05 19:54:48,386 | INFO | TIMER: apply_filters took 0.01 ms
+2026-01-05 19:54:48,386 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:54:48,386 | INFO | TIMER: apply_filters took 0.01 ms
+2026-01-05 19:54:48,386 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:54:48,386 | INFO | TIMER: apply_filters took 0.01 ms
+2026-01-05 19:54:48,386 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:54:48,386 | INFO | TIMER: apply_filters took 0.01 ms
+2026-01-05 19:54:48,386 | INFO | TIMER: summary_metrics took 0.00 ms
+2026-01-05 19:55:05,166 | INFO | ACTION: ADD_TRANSACTION
+2026-01-05 19:55:09,162 | INFO | ACTION: ADD_TRANSACTION
+2026-01-05 19:55:32,643 | INFO | ACTION: ADD_TRANSACTION
+2026-01-05 19:55:32,664 | INFO | TIMER: apply_filters took 0.18 ms
+2026-01-05 19:55:32,665 | INFO | TIMER: apply_filters took 0.12 ms
+2026-01-05 19:55:32,667 | INFO | TIMER: summary_metrics took 1.83 ms
+2026-01-05 19:55:32,667 | INFO | TIMER: apply_filters took 0.15 ms
+2026-01-05 19:55:32,667 | INFO | TIMER: summary_metrics took 0.32 ms
+2026-01-05 19:55:32,667 | INFO | TIMER: apply_filters took 0.12 ms
+2026-01-05 19:55:32,668 | INFO | TIMER: summary_metrics took 0.28 ms
+2026-01-05 19:55:32,668 | INFO | TIMER: apply_filters took 0.22 ms
+2026-01-05 19:55:32,668 | INFO | TIMER: summary_metrics took 0.27 ms
+2026-01-05 19:56:30,686 | INFO | TIMER: apply_filters took 0.24 ms
+2026-01-05 19:56:30,686 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:30,687 | INFO | TIMER: summary_metrics took 0.56 ms
+2026-01-05 19:56:30,687 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:30,688 | INFO | TIMER: summary_metrics took 0.54 ms
+2026-01-05 19:56:32,067 | INFO | TIMER: apply_filters took 0.24 ms
+2026-01-05 19:56:32,068 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:32,068 | INFO | TIMER: summary_metrics took 0.55 ms
+2026-01-05 19:56:32,069 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:32,069 | INFO | TIMER: summary_metrics took 0.50 ms
+2026-01-05 19:56:32,625 | INFO | TIMER: apply_filters took 0.25 ms
+2026-01-05 19:56:32,626 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:32,626 | INFO | TIMER: summary_metrics took 0.59 ms
+2026-01-05 19:56:32,627 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:32,627 | INFO | TIMER: summary_metrics took 0.50 ms
+2026-01-05 19:56:32,773 | INFO | TIMER: apply_filters took 0.24 ms
+2026-01-05 19:56:32,774 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:32,774 | INFO | TIMER: summary_metrics took 0.56 ms
+2026-01-05 19:56:32,775 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:32,775 | INFO | TIMER: summary_metrics took 0.50 ms
+2026-01-05 19:56:32,923 | INFO | TIMER: apply_filters took 0.25 ms
+2026-01-05 19:56:32,924 | INFO | TIMER: apply_filters took 0.22 ms
+2026-01-05 19:56:32,924 | INFO | TIMER: summary_metrics took 0.58 ms
+2026-01-05 19:56:32,925 | INFO | TIMER: apply_filters took 0.22 ms
+2026-01-05 19:56:32,925 | INFO | TIMER: summary_metrics took 0.52 ms
+2026-01-05 19:56:33,044 | INFO | TIMER: apply_filters took 0.15 ms
+2026-01-05 19:56:33,044 | INFO | TIMER: apply_filters took 0.12 ms
+2026-01-05 19:56:33,045 | INFO | TIMER: summary_metrics took 0.32 ms
+2026-01-05 19:56:33,045 | INFO | TIMER: apply_filters took 0.14 ms
+2026-01-05 19:56:33,045 | INFO | TIMER: summary_metrics took 0.29 ms
+2026-01-05 19:56:33,932 | INFO | TIMER: apply_filters took 0.25 ms
+2026-01-05 19:56:33,932 | INFO | TIMER: apply_filters took 0.20 ms
+2026-01-05 19:56:33,933 | INFO | TIMER: summary_metrics took 0.56 ms
+2026-01-05 19:56:33,933 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:33,934 | INFO | TIMER: summary_metrics took 0.50 ms
+2026-01-05 19:56:34,384 | INFO | TIMER: apply_filters took 0.24 ms
+2026-01-05 19:56:34,384 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:34,385 | INFO | TIMER: summary_metrics took 0.56 ms
+2026-01-05 19:56:34,385 | INFO | TIMER: apply_filters took 0.21 ms
+2026-01-05 19:56:34,386 | INFO | TIMER: summary_metrics took 0.51 ms
+2026-01-05 19:56:40,907 | INFO | ACTION: CHART_SPENDING
+2026-01-05 19:56:40,907 | INFO | TIMER: apply_filters took 0.44 ms
+2026-01-05 19:56:40,921 | INFO | TIMER: plot_spending_by_category took 14.11 ms
+2026-01-05 19:56:41,404 | INFO | ACTION: CHART_INCOME_VS_EXPENSE
+2026-01-05 19:56:41,405 | INFO | TIMER: apply_filters took 0.39 ms
+2026-01-05 19:56:41,419 | INFO | TIMER: plot_income_vs_expense_by_month took 14.25 ms
+2026-01-05 19:56:41,815 | INFO | ACTION: CHART_DAILY
+2026-01-05 19:56:41,816 | INFO | TIMER: apply_filters took 0.41 ms
+2026-01-05 19:56:41,827 | INFO | TIMER: plot_daily_expense_trend took 11.10 ms
+2026-01-05 19:56:42,538 | INFO | ACTION: CHART_BALANCE
+2026-01-05 19:56:42,539 | INFO | TIMER: apply_filters took 0.28 ms
+2026-01-05 19:56:42,545 | INFO | TIMER: plot_cumulative_balance took 6.28 ms
+2026-01-05 19:56:42,925 | INFO | ACTION: CHART_DAILY
+2026-01-05 19:56:42,926 | INFO | TIMER: apply_filters took 0.27 ms
+2026-01-05 19:56:42,932 | INFO | TIMER: plot_daily_expense_trend took 5.76 ms
+2026-01-05 19:56:43,133 | INFO | ACTION: CHART_INCOME_VS_EXPENSE
+2026-01-05 19:56:43,134 | INFO | TIMER: apply_filters took 0.40 ms
+2026-01-05 19:56:43,147 | INFO | TIMER: plot_income_vs_expense_by_month took 12.96 ms
+2026-01-05 19:56:43,555 | INFO | ACTION: CHART_SPENDING
+2026-01-05 19:56:43,556 | INFO | TIMER: apply_filters took 0.41 ms
+2026-01-05 19:56:43,565 | INFO | TIMER: plot_spending_by_category took 8.62 ms
+2026-01-05 19:56:53,817 | INFO | ACTION: GENERATE_DEMO_DATA
+2026-01-05 19:56:53,836 | INFO | TIMER: apply_filters took 0.18 ms
+2026-01-05 19:56:53,837 | INFO | TIMER: apply_filters took 0.16 ms
+2026-01-05 19:56:53,837 | INFO | TIMER: summary_metrics took 0.32 ms
+2026-01-05 19:56:53,838 | INFO | TIMER: apply_filters took 0.16 ms
+2026-01-05 19:56:53,838 | INFO | TIMER: summary_metrics took 0.28 ms
+2026-01-05 19:56:53,839 | INFO | TIMER: apply_filters took 0.31 ms
+2026-01-05 19:56:53,839 | INFO | TIMER: summary_metrics took 0.53 ms
+2026-01-05 19:56:53,840 | INFO | TIMER: apply_filters took 0.27 ms
+2026-01-05 19:56:53,840 | INFO | TIMER: summary_metrics took 0.50 ms
+2026-01-05 19:57:01,301 | INFO | ACTION: CHART_SPENDING
+2026-01-05 19:57:01,301 | INFO | TIMER: apply_filters took 0.32 ms
+2026-01-05 19:57:01,312 | INFO | TIMER: plot_spending_by_category took 11.36 ms
+2026-01-05 19:57:02,562 | INFO | ACTION: CHART_INCOME_VS_EXPENSE
+2026-01-05 19:57:02,562 | INFO | TIMER: apply_filters took 0.50 ms
+2026-01-05 19:57:02,580 | INFO | TIMER: plot_income_vs_expense_by_month took 17.45 ms
+2026-01-05 19:57:03,031 | INFO | ACTION: CHART_DAILY
+2026-01-05 19:57:03,031 | INFO | TIMER: apply_filters took 0.51 ms
+2026-01-05 19:57:03,050 | INFO | TIMER: plot_daily_expense_trend took 18.50 ms
+2026-01-05 19:57:03,289 | INFO | ACTION: CHART_BALANCE
+2026-01-05 19:57:03,290 | INFO | TIMER: apply_filters took 0.49 ms
+2026-01-05 19:57:03,304 | INFO | TIMER: plot_cumulative_balance took 13.97 ms
+2026-01-05 19:57:03,644 | INFO | ACTION: CHART_SPENDING
+2026-01-05 19:57:03,644 | INFO | TIMER: apply_filters took 0.51 ms
+2026-01-05 19:57:03,662 | INFO | TIMER: plot_spending_by_category took 17.95 ms
+2026-01-05 19:57:04,793 | INFO | TIMER: apply_filters took 0.52 ms
+2026-01-05 19:57:04,794 | INFO | TIMER: summary_metrics took 0.64 ms
+2026-01-05 19:58:50,737 | INFO | TIMER: apply_filters took 0.54 ms
+2026-01-05 19:58:50,738 | INFO | TIMER: summary_metrics took 0.64 ms
+2026-01-05 19:58:52,887 | INFO | TIMER: apply_filters took 0.50 ms
+2026-01-05 19:58:52,887 | INFO | TIMER: summary_metrics took 0.65 ms
+2026-01-05 21:12:05,861 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:12:05,862 | INFO | TIMER: apply_filters took 0.337 ms
+2026-01-05 21:12:05,874 | INFO | TIMER: plot_spending_by_category took 11.570 ms
+2026-01-05 21:12:05,892 | INFO | TIMER: apply_filters took 0.292 ms
+2026-01-05 21:12:05,892 | INFO | TIMER: summary_metrics took 0.536 ms
+2026-01-05 21:12:05,896 | INFO | TIMER: apply_filters took 0.167 ms
+2026-01-05 21:12:05,897 | INFO | TIMER: apply_filters took 0.168 ms
+2026-01-05 21:12:05,898 | INFO | TIMER: summary_metrics took 0.416 ms
+2026-01-05 21:12:05,898 | INFO | TIMER: apply_filters took 0.165 ms
+2026-01-05 21:12:05,900 | INFO | TIMER: summary_metrics took 1.701 ms
+2026-01-05 21:12:05,900 | INFO | TIMER: apply_filters took 0.199 ms
+2026-01-05 21:12:05,900 | INFO | TIMER: summary_metrics took 0.294 ms
+2026-01-05 21:12:05,901 | INFO | TIMER: apply_filters took 0.153 ms
+2026-01-05 21:12:05,901 | INFO | TIMER: summary_metrics took 0.302 ms
+2026-01-05 21:12:29,439 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:12:29,439 | INFO | TIMER: apply_filters took 0.039 ms
+2026-01-05 21:12:29,444 | INFO | TIMER: plot_spending_by_category took 4.770 ms
+2026-01-05 21:12:29,466 | INFO | TIMER: apply_filters took 0.039 ms
+2026-01-05 21:12:29,466 | INFO | TIMER: summary_metrics took 0.003 ms
+2026-01-05 21:12:29,468 | INFO | TIMER: apply_filters took 0.016 ms
+2026-01-05 21:12:29,468 | INFO | TIMER: apply_filters took 0.015 ms
+2026-01-05 21:12:29,468 | INFO | TIMER: summary_metrics took 0.002 ms
+2026-01-05 21:12:29,468 | INFO | TIMER: apply_filters took 0.015 ms
+2026-01-05 21:12:29,468 | INFO | TIMER: summary_metrics took 0.001 ms
+2026-01-05 21:12:29,468 | INFO | TIMER: apply_filters took 0.012 ms
+2026-01-05 21:12:29,468 | INFO | TIMER: summary_metrics took 0.001 ms
+2026-01-05 21:12:29,468 | INFO | TIMER: apply_filters took 0.012 ms
+2026-01-05 21:12:29,468 | INFO | TIMER: summary_metrics took 0.001 ms
+2026-01-05 21:12:33,238 | INFO | TIMER: apply_filters took 0.076 ms
+2026-01-05 21:12:33,238 | INFO | TIMER: summary_metrics took 0.004 ms
+2026-01-05 21:16:46,992 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:16:46,993 | INFO | TIMER: apply_filters took 0.052 ms
+2026-01-05 21:16:46,998 | INFO | TIMER: plot_spending_by_category took 5.299 ms
+2026-01-05 21:16:47,021 | INFO | TIMER: apply_filters took 0.049 ms
+2026-01-05 21:16:47,021 | INFO | TIMER: summary_metrics took 0.003 ms
+2026-01-05 21:16:47,023 | INFO | TIMER: apply_filters took 0.017 ms
+2026-01-05 21:16:47,023 | INFO | TIMER: apply_filters took 0.015 ms
+2026-01-05 21:16:47,023 | INFO | TIMER: summary_metrics took 0.002 ms
+2026-01-05 21:16:47,024 | INFO | TIMER: apply_filters took 0.014 ms
+2026-01-05 21:16:47,024 | INFO | TIMER: summary_metrics took 0.001 ms
+2026-01-05 21:16:47,024 | INFO | TIMER: apply_filters took 0.017 ms
+2026-01-05 21:16:47,024 | INFO | TIMER: summary_metrics took 0.002 ms
+2026-01-05 21:16:47,024 | INFO | TIMER: apply_filters took 0.013 ms
+2026-01-05 21:16:47,024 | INFO | TIMER: summary_metrics took 0.002 ms
+2026-01-05 21:17:32,317 | INFO | ACTION: ADD_TRANSACTION
+2026-01-05 21:18:10,852 | INFO | ACTION: ADD_TRANSACTION
+2026-01-05 21:18:10,869 | INFO | TIMER: apply_filters took 0.175 ms
+2026-01-05 21:18:10,870 | INFO | TIMER: apply_filters took 0.130 ms
+2026-01-05 21:18:10,870 | INFO | TIMER: summary_metrics took 0.400 ms
+2026-01-05 21:18:10,870 | INFO | TIMER: apply_filters took 0.134 ms
+2026-01-05 21:18:10,871 | INFO | TIMER: summary_metrics took 0.301 ms
+2026-01-05 21:18:10,871 | INFO | TIMER: apply_filters took 0.124 ms
+2026-01-05 21:18:10,871 | INFO | TIMER: summary_metrics took 0.290 ms
+2026-01-05 21:18:10,871 | INFO | TIMER: apply_filters took 0.125 ms
+2026-01-05 21:18:10,872 | INFO | TIMER: summary_metrics took 0.273 ms
+2026-01-05 21:18:14,050 | INFO | TIMER: apply_filters took 0.403 ms
+2026-01-05 21:18:14,051 | INFO | TIMER: summary_metrics took 0.643 ms
+2026-01-05 21:18:20,278 | INFO | ACTION: GENERATE_DEMO_DATA
+2026-01-05 21:18:20,299 | INFO | TIMER: apply_filters took 0.336 ms
+2026-01-05 21:18:20,302 | INFO | TIMER: apply_filters took 0.199 ms
+2026-01-05 21:18:20,302 | INFO | TIMER: summary_metrics took 0.323 ms
+2026-01-05 21:18:20,302 | INFO | TIMER: apply_filters took 0.161 ms
+2026-01-05 21:18:20,303 | INFO | TIMER: summary_metrics took 0.289 ms
+2026-01-05 21:18:20,303 | INFO | TIMER: apply_filters took 0.163 ms
+2026-01-05 21:18:20,303 | INFO | TIMER: summary_metrics took 0.289 ms
+2026-01-05 21:18:20,304 | INFO | TIMER: apply_filters took 0.158 ms
+2026-01-05 21:18:20,304 | INFO | TIMER: summary_metrics took 0.280 ms
+2026-01-05 21:18:21,437 | INFO | ACTION: GENERATE_DEMO_DATA
+2026-01-05 21:18:21,453 | INFO | TIMER: apply_filters took 0.268 ms
+2026-01-05 21:18:21,455 | INFO | TIMER: apply_filters took 0.168 ms
+2026-01-05 21:18:21,456 | INFO | TIMER: summary_metrics took 0.320 ms
+2026-01-05 21:18:21,456 | INFO | TIMER: apply_filters took 0.166 ms
+2026-01-05 21:18:21,456 | INFO | TIMER: summary_metrics took 0.351 ms
+2026-01-05 21:18:21,457 | INFO | TIMER: apply_filters took 0.170 ms
+2026-01-05 21:18:21,457 | INFO | TIMER: summary_metrics took 0.332 ms
+2026-01-05 21:18:21,457 | INFO | TIMER: apply_filters took 0.153 ms
+2026-01-05 21:18:21,458 | INFO | TIMER: summary_metrics took 0.283 ms
+2026-01-05 21:18:22,278 | INFO | ACTION: GENERATE_DEMO_DATA
+2026-01-05 21:18:22,297 | INFO | TIMER: apply_filters took 0.311 ms
+2026-01-05 21:18:22,300 | INFO | TIMER: apply_filters took 0.202 ms
+2026-01-05 21:18:22,300 | INFO | TIMER: summary_metrics took 0.340 ms
+2026-01-05 21:18:22,300 | INFO | TIMER: apply_filters took 0.166 ms
+2026-01-05 21:18:22,301 | INFO | TIMER: summary_metrics took 0.274 ms
+2026-01-05 21:18:22,301 | INFO | TIMER: apply_filters took 0.173 ms
+2026-01-05 21:18:22,301 | INFO | TIMER: summary_metrics took 0.310 ms
+2026-01-05 21:18:22,301 | INFO | TIMER: apply_filters took 0.156 ms
+2026-01-05 21:18:22,302 | INFO | TIMER: summary_metrics took 0.284 ms
+2026-01-05 21:18:32,738 | INFO | TIMER: apply_filters took 0.338 ms
+2026-01-05 21:18:32,739 | INFO | TIMER: summary_metrics took 0.388 ms
+2026-01-05 21:18:45,708 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:18:45,709 | INFO | TIMER: apply_filters took 0.035 ms
+2026-01-05 21:18:45,713 | INFO | TIMER: plot_spending_by_category took 4.895 ms
+2026-01-05 21:18:45,735 | INFO | TIMER: apply_filters took 0.042 ms
+2026-01-05 21:18:45,735 | INFO | TIMER: summary_metrics took 0.003 ms
+2026-01-05 21:18:45,737 | INFO | TIMER: apply_filters took 0.017 ms
+2026-01-05 21:18:45,737 | INFO | TIMER: apply_filters took 0.015 ms
+2026-01-05 21:18:45,737 | INFO | TIMER: summary_metrics took 0.002 ms
+2026-01-05 21:18:45,737 | INFO | TIMER: apply_filters took 0.013 ms
+2026-01-05 21:18:45,737 | INFO | TIMER: summary_metrics took 0.001 ms
+2026-01-05 21:18:45,737 | INFO | TIMER: apply_filters took 0.013 ms
+2026-01-05 21:18:45,737 | INFO | TIMER: summary_metrics took 0.001 ms
+2026-01-05 21:18:45,737 | INFO | TIMER: apply_filters took 0.012 ms
+2026-01-05 21:18:45,737 | INFO | TIMER: summary_metrics took 0.001 ms
+2026-01-05 21:18:49,570 | INFO | ACTION: GENERATE_DEMO_DATA
+2026-01-05 21:18:49,589 | INFO | TIMER: apply_filters took 0.387 ms
+2026-01-05 21:18:49,592 | INFO | TIMER: apply_filters took 0.225 ms
+2026-01-05 21:18:49,592 | INFO | TIMER: summary_metrics took 0.397 ms
+2026-01-05 21:18:49,592 | INFO | TIMER: apply_filters took 0.181 ms
+2026-01-05 21:18:49,593 | INFO | TIMER: summary_metrics took 0.371 ms
+2026-01-05 21:18:49,593 | INFO | TIMER: apply_filters took 0.163 ms
+2026-01-05 21:18:49,593 | INFO | TIMER: summary_metrics took 0.273 ms
+2026-01-05 21:18:49,593 | INFO | TIMER: apply_filters took 0.164 ms
+2026-01-05 21:18:49,594 | INFO | TIMER: summary_metrics took 0.273 ms
+2026-01-05 21:18:53,701 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:18:53,702 | INFO | TIMER: apply_filters took 0.499 ms
+2026-01-05 21:18:53,723 | INFO | TIMER: plot_spending_by_category took 21.385 ms
+2026-01-05 21:18:54,698 | INFO | ACTION: CHART_INCOME_VS_EXPENSE
+2026-01-05 21:18:54,699 | INFO | TIMER: apply_filters took 0.514 ms
+2026-01-05 21:18:54,715 | INFO | TIMER: plot_income_vs_expense_by_month took 16.604 ms
+2026-01-05 21:18:55,111 | INFO | ACTION: CHART_DAILY
+2026-01-05 21:18:55,112 | INFO | TIMER: apply_filters took 0.508 ms
+2026-01-05 21:18:55,123 | INFO | TIMER: plot_daily_expense_trend took 10.576 ms
+2026-01-05 21:18:55,598 | INFO | ACTION: CHART_BALANCE
+2026-01-05 21:18:55,599 | INFO | TIMER: apply_filters took 0.509 ms
+2026-01-05 21:18:55,615 | INFO | TIMER: plot_cumulative_balance took 16.067 ms
+2026-01-05 21:18:56,236 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:18:56,237 | INFO | TIMER: apply_filters took 0.502 ms
+2026-01-05 21:18:56,257 | INFO | TIMER: plot_spending_by_category took 19.720 ms
+2026-01-05 21:20:01,966 | INFO | TIMER: apply_filters took 0.370 ms
+2026-01-05 21:20:01,967 | INFO | TIMER: summary_metrics took 0.423 ms
+2026-01-05 21:22:02,472 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:22:02,473 | INFO | TIMER: apply_filters took 0.383 ms
+2026-01-05 21:22:02,484 | INFO | TIMER: plot_spending_by_category took 10.772 ms
+2026-01-05 21:22:02,501 | INFO | TIMER: apply_filters took 0.321 ms
+2026-01-05 21:22:02,501 | INFO | TIMER: summary_metrics took 0.459 ms
+2026-01-05 21:22:02,505 | INFO | TIMER: apply_filters took 0.175 ms
+2026-01-05 21:22:02,506 | INFO | TIMER: apply_filters took 0.168 ms
+2026-01-05 21:22:02,506 | INFO | TIMER: summary_metrics took 0.326 ms
+2026-01-05 21:22:02,507 | INFO | TIMER: apply_filters took 0.164 ms
+2026-01-05 21:22:02,507 | INFO | TIMER: summary_metrics took 0.282 ms
+2026-01-05 21:22:02,507 | INFO | TIMER: apply_filters took 0.169 ms
+2026-01-05 21:22:02,508 | INFO | TIMER: summary_metrics took 0.297 ms
+2026-01-05 21:22:02,508 | INFO | TIMER: apply_filters took 0.216 ms
+2026-01-05 21:22:02,508 | INFO | TIMER: summary_metrics took 0.320 ms
+2026-01-05 21:22:09,161 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:22:09,161 | INFO | TIMER: apply_filters took 0.324 ms
+2026-01-05 21:22:09,172 | INFO | TIMER: plot_spending_by_category took 11.043 ms
+2026-01-05 21:22:09,189 | INFO | TIMER: apply_filters took 0.277 ms
+2026-01-05 21:22:09,190 | INFO | TIMER: summary_metrics took 0.429 ms
+2026-01-05 21:22:09,194 | INFO | TIMER: apply_filters took 0.162 ms
+2026-01-05 21:22:09,195 | INFO | TIMER: apply_filters took 0.161 ms
+2026-01-05 21:22:09,195 | INFO | TIMER: summary_metrics took 0.317 ms
+2026-01-05 21:22:09,195 | INFO | TIMER: apply_filters took 0.158 ms
+2026-01-05 21:22:09,196 | INFO | TIMER: summary_metrics took 0.275 ms
+2026-01-05 21:22:09,196 | INFO | TIMER: apply_filters took 0.165 ms
+2026-01-05 21:22:09,196 | INFO | TIMER: summary_metrics took 0.286 ms
+2026-01-05 21:22:09,196 | INFO | TIMER: apply_filters took 0.146 ms
+2026-01-05 21:22:09,197 | INFO | TIMER: summary_metrics took 0.265 ms
+2026-01-05 21:38:11,932 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:38:11,933 | INFO | TIMER: apply_filters took 0.438 ms
+2026-01-05 21:38:11,949 | INFO | TIMER: plot_spending_by_category took 16.209 ms
+2026-01-05 21:38:11,969 | INFO | TIMER: apply_filters took 0.293 ms
+2026-01-05 21:38:11,969 | INFO | TIMER: summary_metrics took 0.599 ms
+2026-01-05 21:38:11,973 | INFO | TIMER: apply_filters took 0.167 ms
+2026-01-05 21:38:11,974 | INFO | TIMER: apply_filters took 0.166 ms
+2026-01-05 21:38:11,975 | INFO | TIMER: summary_metrics took 0.307 ms
+2026-01-05 21:38:11,975 | INFO | TIMER: apply_filters took 0.159 ms
+2026-01-05 21:38:11,975 | INFO | TIMER: summary_metrics took 0.278 ms
+2026-01-05 21:38:11,975 | INFO | TIMER: apply_filters took 0.158 ms
+2026-01-05 21:38:11,976 | INFO | TIMER: summary_metrics took 0.267 ms
+2026-01-05 21:38:11,976 | INFO | TIMER: apply_filters took 0.163 ms
+2026-01-05 21:38:11,976 | INFO | TIMER: summary_metrics took 0.285 ms
+2026-01-05 21:40:02,446 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:40:02,446 | INFO | TIMER: apply_filters took 0.415 ms
+2026-01-05 21:40:02,458 | INFO | TIMER: plot_spending_by_category took 11.499 ms
+2026-01-05 21:40:02,476 | INFO | TIMER: apply_filters took 0.331 ms
+2026-01-05 21:40:02,476 | INFO | TIMER: summary_metrics took 0.452 ms
+2026-01-05 21:40:02,480 | INFO | TIMER: apply_filters took 0.331 ms
+2026-01-05 21:40:02,482 | INFO | TIMER: apply_filters took 0.253 ms
+2026-01-05 21:40:02,482 | INFO | TIMER: summary_metrics took 0.444 ms
+2026-01-05 21:40:02,483 | INFO | TIMER: apply_filters took 0.269 ms
+2026-01-05 21:40:02,483 | INFO | TIMER: summary_metrics took 0.316 ms
+2026-01-05 21:40:02,483 | INFO | TIMER: apply_filters took 0.171 ms
+2026-01-05 21:40:02,484 | INFO | TIMER: summary_metrics took 0.303 ms
+2026-01-05 21:40:02,484 | INFO | TIMER: apply_filters took 0.194 ms
+2026-01-05 21:40:02,484 | INFO | TIMER: summary_metrics took 0.296 ms
+2026-01-05 21:40:06,781 | INFO | ACTION: ADD_TRANSACTION
+2026-01-05 21:40:06,796 | INFO | TIMER: apply_filters took 0.175 ms
+2026-01-05 21:40:06,797 | INFO | TIMER: apply_filters took 0.178 ms
+2026-01-05 21:40:06,798 | INFO | TIMER: summary_metrics took 0.322 ms
+2026-01-05 21:40:06,798 | INFO | TIMER: apply_filters took 0.167 ms
+2026-01-05 21:40:06,798 | INFO | TIMER: summary_metrics took 0.301 ms
+2026-01-05 21:40:06,799 | INFO | TIMER: apply_filters took 0.158 ms
+2026-01-05 21:40:06,799 | INFO | TIMER: summary_metrics took 0.283 ms
+2026-01-05 21:40:06,799 | INFO | TIMER: apply_filters took 0.149 ms
+2026-01-05 21:40:06,799 | INFO | TIMER: summary_metrics took 0.287 ms
+2026-01-05 21:57:53,977 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:57:53,977 | INFO | TIMER: apply_filters took 0.324 ms
+2026-01-05 21:57:53,988 | INFO | TIMER: plot_spending_by_category took 11.234 ms
+2026-01-05 21:57:54,005 | INFO | TIMER: apply_filters took 0.293 ms
+2026-01-05 21:57:54,006 | INFO | TIMER: summary_metrics took 0.441 ms
+2026-01-05 21:57:54,010 | INFO | TIMER: apply_filters took 0.169 ms
+2026-01-05 21:57:54,011 | INFO | TIMER: apply_filters took 0.162 ms
+2026-01-05 21:57:54,011 | INFO | TIMER: summary_metrics took 0.317 ms
+2026-01-05 21:57:54,011 | INFO | TIMER: apply_filters took 0.159 ms
+2026-01-05 21:57:54,012 | INFO | TIMER: summary_metrics took 0.290 ms
+2026-01-05 21:57:54,012 | INFO | TIMER: apply_filters took 0.162 ms
+2026-01-05 21:57:54,012 | INFO | TIMER: summary_metrics took 0.284 ms
+2026-01-05 21:57:54,013 | INFO | TIMER: apply_filters took 0.155 ms
+2026-01-05 21:57:54,013 | INFO | TIMER: summary_metrics took 0.281 ms
+2026-01-05 21:58:17,442 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:58:17,442 | INFO | TIMER: apply_filters took 0.318 ms
+2026-01-05 21:58:17,453 | INFO | TIMER: plot_spending_by_category took 10.415 ms
+2026-01-05 21:58:17,470 | INFO | TIMER: apply_filters took 0.262 ms
+2026-01-05 21:58:17,470 | INFO | TIMER: summary_metrics took 0.437 ms
+2026-01-05 21:58:17,474 | INFO | TIMER: apply_filters took 0.194 ms
+2026-01-05 21:58:17,475 | INFO | TIMER: apply_filters took 0.166 ms
+2026-01-05 21:58:17,476 | INFO | TIMER: summary_metrics took 0.305 ms
+2026-01-05 21:58:17,476 | INFO | TIMER: apply_filters took 0.165 ms
+2026-01-05 21:58:17,476 | INFO | TIMER: summary_metrics took 0.304 ms
+2026-01-05 21:58:17,476 | INFO | TIMER: apply_filters took 0.152 ms
+2026-01-05 21:58:17,477 | INFO | TIMER: summary_metrics took 0.291 ms
+2026-01-05 21:58:17,477 | INFO | TIMER: apply_filters took 0.162 ms
+2026-01-05 21:58:17,477 | INFO | TIMER: summary_metrics took 0.265 ms
+2026-01-05 21:58:18,959 | INFO | TIMER: apply_filters took 0.333 ms
+2026-01-05 21:58:18,960 | INFO | TIMER: summary_metrics took 0.372 ms
+2026-01-05 21:58:24,606 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:58:24,606 | INFO | TIMER: apply_filters took 0.383 ms
+2026-01-05 21:58:24,618 | INFO | TIMER: plot_spending_by_category took 11.937 ms
+2026-01-05 21:58:24,957 | INFO | ACTION: CHART_SPENDING
+2026-01-05 21:58:24,957 | INFO | TIMER: apply_filters took 0.502 ms
+2026-01-05 21:58:24,975 | INFO | TIMER: plot_spending_by_category took 17.934 ms
+2026-01-05 21:58:25,232 | INFO | ACTION: CHART_INCOME_VS_EXPENSE
+2026-01-05 21:58:25,232 | INFO | TIMER: apply_filters took 0.368 ms
+2026-01-05 21:58:25,243 | INFO | TIMER: plot_income_vs_expense_by_month took 11.355 ms
+2026-01-05 21:58:25,644 | INFO | ACTION: CHART_DAILY
+2026-01-05 21:58:25,644 | INFO | TIMER: apply_filters took 0.511 ms
+2026-01-05 21:58:25,661 | INFO | TIMER: plot_daily_expense_trend took 16.097 ms
+2026-01-05 21:58:26,118 | INFO | ACTION: CHART_BALANCE
+2026-01-05 21:58:26,118 | INFO | TIMER: apply_filters took 0.497 ms
+2026-01-05 21:58:26,133 | INFO | TIMER: plot_cumulative_balance took 14.946 ms
+2026-01-05 22:07:04,262 | INFO | ACTION: CHART_SPENDING
+2026-01-05 22:07:04,262 | INFO | TIMER: apply_filters took 0.319 ms
+2026-01-05 22:07:04,273 | INFO | TIMER: plot_spending_by_category took 10.795 ms
+2026-01-05 22:07:04,290 | INFO | TIMER: apply_filters took 0.292 ms
+2026-01-05 22:07:04,291 | INFO | TIMER: summary_metrics took 0.455 ms
+2026-01-05 22:07:04,294 | INFO | TIMER: apply_filters took 0.163 ms
+2026-01-05 22:07:04,296 | INFO | TIMER: apply_filters took 0.163 ms
+2026-01-05 22:07:04,296 | INFO | TIMER: summary_metrics took 0.313 ms
+2026-01-05 22:07:04,296 | INFO | TIMER: apply_filters took 0.174 ms
+2026-01-05 22:07:04,297 | INFO | TIMER: summary_metrics took 0.296 ms
+2026-01-05 22:07:04,297 | INFO | TIMER: apply_filters took 0.159 ms
+2026-01-05 22:07:04,297 | INFO | TIMER: summary_metrics took 0.287 ms
+2026-01-05 22:07:04,297 | INFO | TIMER: apply_filters took 0.149 ms
+2026-01-05 22:07:04,298 | INFO | TIMER: summary_metrics took 0.265 ms
+2026-01-05 22:11:29,600 | INFO | ACTION: CHART_SPENDING
+2026-01-05 22:11:29,600 | INFO | TIMER: apply_filters took 0.315 ms
+2026-01-05 22:11:29,611 | INFO | TIMER: plot_spending_by_category took 11.268 ms
+2026-01-05 22:11:29,628 | INFO | TIMER: apply_filters took 0.283 ms
+2026-01-05 22:11:29,628 | INFO | TIMER: summary_metrics took 0.420 ms
+2026-01-05 22:11:29,632 | INFO | TIMER: apply_filters took 0.165 ms
+2026-01-05 22:11:29,634 | INFO | TIMER: apply_filters took 0.166 ms
+2026-01-05 22:11:29,634 | INFO | TIMER: summary_metrics took 0.337 ms
+2026-01-05 22:11:29,634 | INFO | TIMER: apply_filters took 0.161 ms
+2026-01-05 22:11:29,635 | INFO | TIMER: summary_metrics took 0.274 ms
+2026-01-05 22:11:29,635 | INFO | TIMER: apply_filters took 0.179 ms
+2026-01-05 22:11:29,635 | INFO | TIMER: summary_metrics took 0.298 ms
+2026-01-05 22:11:29,635 | INFO | TIMER: apply_filters took 0.149 ms
+2026-01-05 22:11:29,636 | INFO | TIMER: summary_metrics took 0.369 ms
+2026-01-05 23:08:41,929 | INFO | ACTION: CHART_SPENDING
+2026-01-05 23:08:41,930 | INFO | TIMER: apply_filters took 0.414 ms
+2026-01-05 23:08:41,943 | INFO | TIMER: plot_spending_by_category took 12.750 ms
+2026-01-05 23:08:41,963 | INFO | TIMER: apply_filters took 0.353 ms
+2026-01-05 23:08:41,963 | INFO | TIMER: summary_metrics took 0.509 ms
+2026-01-05 23:08:41,969 | INFO | TIMER: apply_filters took 0.206 ms
+2026-01-05 23:08:41,970 | INFO | TIMER: apply_filters took 0.197 ms
+2026-01-05 23:08:41,970 | INFO | TIMER: summary_metrics took 0.415 ms
+2026-01-05 23:08:41,971 | INFO | TIMER: apply_filters took 0.194 ms
+2026-01-05 23:08:41,971 | INFO | TIMER: summary_metrics took 0.450 ms
+2026-01-05 23:08:41,972 | INFO | TIMER: apply_filters took 0.214 ms
+2026-01-05 23:08:41,972 | INFO | TIMER: summary_metrics took 0.346 ms
+2026-01-05 23:08:41,972 | INFO | TIMER: apply_filters took 0.195 ms
+2026-01-05 23:08:41,973 | INFO | TIMER: summary_metrics took 0.376 ms
+2026-01-05 23:08:47,093 | INFO | TIMER: apply_filters took 0.473 ms
+2026-01-05 23:08:47,093 | INFO | TIMER: summary_metrics took 0.596 ms
+2026-01-05 23:09:03,734 | INFO | ACTION: CHART_SPENDING
+2026-01-05 23:09:03,734 | INFO | TIMER: apply_filters took 0.404 ms
+2026-01-05 23:09:03,747 | INFO | TIMER: plot_spending_by_category took 12.922 ms
+2026-01-05 23:09:04,171 | INFO | ACTION: CHART_INCOME_VS_EXPENSE
+2026-01-05 23:09:04,172 | INFO | TIMER: apply_filters took 0.395 ms
+2026-01-05 23:09:04,185 | INFO | TIMER: plot_income_vs_expense_by_month took 12.914 ms
+2026-01-05 23:09:04,641 | INFO | ACTION: CHART_DAILY
+2026-01-05 23:09:04,642 | INFO | TIMER: apply_filters took 0.391 ms
+2026-01-05 23:09:04,652 | INFO | TIMER: plot_daily_expense_trend took 10.107 ms
+2026-01-05 23:09:05,059 | INFO | ACTION: CHART_BALANCE
+2026-01-05 23:09:05,059 | INFO | TIMER: apply_filters took 0.452 ms
+2026-01-05 23:09:05,071 | INFO | TIMER: plot_cumulative_balance took 12.604 ms
+2026-01-05 23:09:05,934 | INFO | ACTION: CHART_SPENDING
+2026-01-05 23:09:05,934 | INFO | TIMER: apply_filters took 0.379 ms
+2026-01-05 23:09:05,946 | INFO | TIMER: plot_spending_by_category took 11.806 ms
+2026-01-05 23:09:29,485 | INFO | TIMER: apply_filters took 0.437 ms
+2026-01-05 23:09:29,485 | INFO | TIMER: summary_metrics took 0.503 ms

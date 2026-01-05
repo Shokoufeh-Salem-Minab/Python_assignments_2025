@@ -1,41 +1,48 @@
 import string
 import secrets
+import os
 
 def generate_password_from_info():
-    # 1. Ask user for input
-    first_name = input("First name: ").strip()
-    last_name = input("Last name: ").strip()
-    phone = input("Phone number: ").replace(" ", "").replace("-", "")
+    # Get folder where this file is located
+    current_folder = os.path.dirname(__file__)
+    file_path = os.path.join(current_folder, "passwords.txt")
 
-    # 2. Build password parts
-    # First 2 letters of first name (uppercase)
-    part1 = first_name[:2].upper()
-    # Last 2 letters of last name (lowercase)
+    # Ask user for input
+    first_name = input("Enter first name: ")
+    last_name = input("Enter last name: ")
+    phone = input("Enter phone number: ")
+
+    # Clean phone number
+    phone = phone.replace(" ", "")
+    phone = phone.replace("-", "")
+
+    # Password parts
+    part1 = first_name[0:2].upper()
     part2 = last_name[-2:].lower()
-    # Last 4 digits of phone reversed
     part3 = phone[-4:][::-1]
-    # Random digit
-    random_digit = secrets.choice(string.digits)
-    # Random symbol
-    random_symbol = secrets.choice(string.punctuation)
 
-    # 3. Combine all parts
-    password = part1 + part2 + part3 + random_digit + random_symbol
+    num_digits = int(input("How many random digits to add? "))
+    num_symbols = int(input("How many random symbols to add? "))
 
-    # 4. Show steps
-    print("\nSteps:")
-    print(f"- First 2 letters (uppercase): {part1}")
-    print(f"- Last 2 letters (lowercase): {part2}")
-    print(f"- Last 4 digits reversed: {part3}")
-    print(f"- Random digit: {random_digit}")
-    print(f"- Random symbol: {random_symbol}")
+    extra = ""
 
-    # 5. Print final password
-    print("\nGenerated password:", password)
+    for i in range(num_digits):
+        extra = extra + secrets.choice(string.digits)
 
-    # 6. Save password to file
-    with open("passwords.txt", "a") as file:
-        file.write(password + "\n")
+    for i in range(num_symbols):
+        extra = extra + secrets.choice(string.punctuation)
 
-# Run the function
+    password = part1 + part2 + part3 + extra
+
+    while len(password) < 8:
+        password = password + secrets.choice(string.digits)
+
+    print("Generated password:", password)
+
+    # Save to passwords.txt INSIDE assignment4 folder
+    file = open(file_path, "a")
+    file.write(password + "\n")
+    file.close()
+
+
 generate_password_from_info()

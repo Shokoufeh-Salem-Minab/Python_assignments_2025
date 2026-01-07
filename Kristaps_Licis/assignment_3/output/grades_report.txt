@@ -1,0 +1,30 @@
+======================================================================
+STUDENT GRADE REPORT
+Generated: 2025-12-29 21:32:03
+======================================================================
+
+Student: Jānis Bērziņš
+  Grades: [85, 90, 78, 92, 88, 88]
+  Average: 86.83
+
+Student: Ilze Gaļitskaja
+  Grades: [88, 91, 85, 89, 92, 92]
+  Average: 89.50
+
+Student: Andris Kalniņš
+  Grades: [92, 88, 95, 90]
+  Average: 91.25
+
+Student: Dace Celmiņa
+  Grades: [75, 80, 82, 79]
+  Average: 79.00
+
+Student: Kristofers Sīmans
+  Grades: [88, 92, 85]
+  Average: 88.33
+
+Student: Ieva Ošeniece
+  Grades: [95, 93, 97]
+  Average: 95.00
+
+======================================================================

@@ -1,0 +1,12 @@
+
+Student Name: Yangli deng
+Grades: [5.0, 6.0, 7.0, 8.0, 9.0, 8.0]
+Average: 7.166666666666667
+
+Student Name: Samuel Johnson
+Grades: [6.0, 7.0, 8.0, 9.0]
+Average: 7.5
+
+Student Name: Samriddhi Srivastava
+Grades: [6.0, 8.0, 9.0, 8.0, 8.9, 7.5, 9.8]
+Average: 8.171428571428573

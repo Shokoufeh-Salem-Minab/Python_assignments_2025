@@ -1,0 +1,15 @@
+*================*
+Student Results
+*================*
+Name: Angel
+Grades: [20, 20, 10]
+Average: 16.67
+
+Name: Charlie
+Grades: [30, 75, 80]
+Average: 61.67
+
+Name: Has
+Grades: [75, 80, 9]
+Average: 54.67
+

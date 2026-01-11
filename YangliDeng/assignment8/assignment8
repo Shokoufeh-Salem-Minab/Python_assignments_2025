@@ -1,0 +1,68 @@
+import csv
+import matplotlib.pyplot as plt
+
+# Categories
+categories = ["Food", "Transport", "Clothes", "Entertainment"]
+
+# Weekly budget limit
+WEEKLY_BUDGET = 200
+
+# Store expenses
+expenses = {}
+
+# User input
+for category in categories:
+    print(f"\nEnter daily expenses for {category} (7 days):")
+    daily = []
+    for day in range(1, 8):
+        amount = float(input(f"Day {day}: "))
+        daily.append(amount)
+    expenses[category] = daily
+
+# Calculate totals
+totals = {}
+for category in categories:
+    totals[category] = sum(expenses[category])
+
+# Find highest category
+highest_category = max(totals, key=totals.get)
+
+# Calculate daily averages
+averages = {}
+for category in categories:
+    averages[category] = totals[category] / 7
+
+# Save to CSV
+with open("weekly_expenses_summary.csv", "w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerow(["Category", "Total", "Daily Average"])
+    for category in categories:
+        writer.writerow([category, totals[category], round(averages[category], 2)])
+
+# Budget warning
+total_weekly_expense = sum(totals.values())
+if total_weekly_expense > WEEKLY_BUDGET:
+    print("\n⚠️ WARNING: Weekly budget exceeded!")
+else:
+    print("\n✅ Weekly budget is within limit.")
+
+# Bar chart
+plt.figure()
+plt.bar(totals.keys(), totals.values())
+plt.title("Weekly Expenses by Category")
+plt.xlabel("Category")
+plt.ylabel("Total Expense")
+plt.show()
+
+# Pie chart
+plt.figure()
+plt.pie(totals.values(), labels=totals.keys(), autopct="%1.1f%%")
+plt.title("Expense Distribution")
+plt.show()
+
+# Output summary
+print("\nExpense Summary:")
+for category in categories:
+    print(f"{category}: Total = {totals[category]}, Average = {averages[category]:.2f}")
+
+print(f"\nHighest spending category: {highest_category}")

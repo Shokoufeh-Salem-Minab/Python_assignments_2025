@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from grade import grade_value
 from storage import save_grade, read_grades
 
-BASE_DIR = os.path.dirname(__file__)
+BASE_DIR = os.path.dirname(__file__) # not pathlib as os module was already chosen
 DATA_FILE = os.path.join(BASE_DIR, "data", "grades.txt") # data/grades.txt is created automatically
 os.makedirs(os.path.dirname(DATA_FILE), exist_ok = True) # ensure exists
 

@@ -17,10 +17,10 @@ print()
 
 print("\nCharacters in first name (while loop):")
 t = first_name #t - temp
-while t:
+while t: # while not null
     print(t[0], end=" ")
     t = t[1:]
-print()
+print() # new line
 
 if len(first_name) > len(last_name):
     result = "First name is longer than last name"
@@ -34,9 +34,10 @@ password = first_name[0] + last_name[-1] + str(len(first_name) + len(last_name))
 print(f"\nGenerated password: {password}")
 
 l = list(last_name)
+l.pop()  # removes 1 original character
 l.append("*")
 l.insert(0, "@")
-l.pop()        
+# l.pop()        
 l.reverse()
 
 print(f"\nList methods example on last name: {l}")

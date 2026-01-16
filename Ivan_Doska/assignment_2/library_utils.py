@@ -5,9 +5,9 @@ def add_book(library: dict, book_id: int, book: tuple) -> None:
 
 
 def search_book(library: dict, title: str) -> tuple | None:
-    for book in library.values():
+    for book_id, book in library.values(): # added book_id
         if book[0].lower() == title.lower():
-            return book
+            return book_id, book # (book_id, (title, author, year))
     return None
 
 

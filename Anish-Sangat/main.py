@@ -1,128 +1,57 @@
-# Homework 3 - Movie Night Manager
+import library_utils   # my own module with the functions
 
-movie = {
-    "title": "Moon",
-    "year": 2009,
-    "genres": ("Sci-Fi", "Drama", "Mystery"),
-    "actors": ["Sam Rockwell", "Dominique McElligott"],
-    "languages": {"English"},
-    "rating": 7.8,
+# LIST - just the titles of the books
+books = ["Python 101", "Data Science", "Machine Learning"]
+
+# TUPLES - each book is (title, author, year)
+# tuples can't be changed after creating them
+book1 = ("Python 101", "John Smith", 2020)
+book2 = ("Data Science", "Alice Brown", 2021)
+book3 = ("Machine Learning", "David Lee", 2022)
+
+# SET - unique genres (no duplicates allowed)
+genres = {"Programming", "AI", "Math"}
+genres.add("AI")   # testing this one, AI is already there so nothing changes
+genres.add("Statistics")   # this one is new so it gets added
+
+# DICTIONARY - key is the book ID, value is the book tuple
+library = {
+    1: book1,
+    2: book2
 }
 
+print("=== Welcome to the Library ===")
+print()
 
-def show_movie():
-    print("\n MOVIE INFORMATION ")
-    for key, value in movie.items():
-        print(f"{key}: {value}")
+print("Book titles:", books)
+print("Genres:", genres)
+print()
 
+# adding a new book using my function
+library_utils.add_book(library, 3, book3)
 
-def show_genres():
-    print("\nGenres:")
-    for genre in movie["genres"]:
-        print("-", genre)
-    print("First genre:", movie["genres"][0])
-    print("Last genre:", movie["genres"][-1])
+# trying to add with the same id again, this should give an error message
+library_utils.add_book(library, 3, book3)
+print()
 
+# print all the books
+print("All books in the library:")
+library_utils.list_books(library)
+print()
 
-def add_actor():
-    actor = input("Enter actor name: ").strip()
-    if actor == "":
-        print("Name cannot be empty.")
-    elif actor in movie["actors"]:
-        print(actor, "is already in the list.")
-    else:
-        movie["actors"].append(actor)
-        print("Actor added successfully!")
+# search for a book
+search_word = "python"
+print("Searching for:", search_word)
+results = library_utils.search_book(library, search_word)
 
+if len(results) > 0:
+    for book in results:
+        print("Found:", book)
+else:
+    print("No book found.")
+print()
 
-def remove_actor():
-    actor = input("Enter actor name: ").strip()
-    if actor in movie["actors"]:
-        movie["actors"].remove(actor)
-        print(actor, "was removed.")
-    else:
-        print(actor, "was not found in the actors list.")
+# random book suggestion (uses the random library)
+suggestion = library_utils.suggest_book(library)
+print("You should read:", suggestion[0], "by", suggestion[1])
 
-
-def add_language():
-    language = input("Enter language: ").strip()
-    if language == "":
-        print("Language cannot be empty.")
-    else:
-        movie["languages"].add(language)
-        print("Language added successfully!")
-
-
-def update_genre():
-    print("Current genres:", movie["genres"])
-    old_genre = input("Enter the genre to change: ").strip()
-    new_genre = input("Enter the new genre: ").strip()
-
-    genres = list(movie["genres"])          
-    if old_genre in genres:
-        index = genres.index(old_genre)
-        genres[index] = new_genre          
-        movie["genres"] = tuple(genres)    
-        print("Genre updated successfully!")
-        print("The new tuple is:", movie["genres"])
-    else:
-        print(old_genre, "was not found in the genres.")
-
-
-def search_genre():
-    genre = input("Enter genre: ").strip()
-    if genre in movie["genres"]:
-        print("Yes!", genre, "is one of the genres.")
-    else:
-        print(genre, "is not one of the genres.")
-
-
-def show_statistics():
-    print("\n STATISTICS ")
-    print("Movie:", movie["title"])
-    print("Year:", movie["year"])
-    print("Rating:", movie["rating"])
-    print("Number of genres:", len(movie["genres"]))
-    print("Number of actors:", len(movie["actors"]))
-    print("Number of languages:", len(movie["languages"]))
-    print("Actors:")
-    print(", ".join(movie["actors"]))
-    print("Languages:")
-    print(", ".join(movie["languages"]))
-
-
-while True:
-    print("\n MOVIE NIGHT ")
-    print("1. Show movie information")
-    print("2. Show genres")
-    print("3. Add an actor")
-    print("4. Remove an actor")
-    print("5. Add a language")
-    print("6. Update a genre")
-    print("7. Search for a genre")
-    print("8. Show movie statistics")
-    print("9. Exit")
-
-    choice = input("Enter your choice: ").strip()
-
-    if choice == "1":
-        show_movie()
-    elif choice == "2":
-        show_genres()
-    elif choice == "3":
-        add_actor()
-    elif choice == "4":
-        remove_actor()
-    elif choice == "5":
-        add_language()
-    elif choice == "6":
-        update_genre()
-    elif choice == "7":
-        search_genre()
-    elif choice == "8":
-        show_statistics()
-    elif choice == "9":
-        print("Goodbye!")
-        break
-    else:
-        print("Invalid choice. Please try again.")
